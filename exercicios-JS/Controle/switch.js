@@ -1,5 +1,5 @@
 //SELEÇÃO MULTIPLA
-onst imprimirResultado = function (nota) {
+const imprimirResultado = function (nota) {
     switch (Math.floor(nota)) {
         case 10:
         case 9:
