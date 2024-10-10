@@ -8,3 +8,5 @@ const cliente = function(){}
     class produto {} // ES 2015 (ES6)
     console.log(typeof produto)
     console.log(typeof new produto())
+
+    //new pode estanciar uma função 
