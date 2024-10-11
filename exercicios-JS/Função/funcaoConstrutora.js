@@ -1,4 +1,4 @@
-function Carro(velocidadeMaxima = 200, delta = 5) {
+function Carro(velocidadeMaxima = 200, delta = 5) /*parametro principal*/ {
     //atributo privado - que pertence somente a este escopo
     let velocidadeAtual = 0
 
@@ -28,3 +28,6 @@ ferrari.acelerar()
 ferrari.acelerar()
 ferrari.acelerar()
 console.log(ferrari.getVelocidadeAtual()) //chamado 5x
+
+console.log(typeof Carro)
+console.log(typeof ferrari)
