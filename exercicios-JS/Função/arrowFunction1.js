@@ -17,6 +17,6 @@ let ola = function () {
 }
 
 ola = () => "ola"
-ola = _ => 'Ola'
+ola = _ => 'Ola' // possui um parametro 
 
 console.log(ola())
