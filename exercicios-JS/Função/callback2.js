@@ -21,6 +21,7 @@ console.log(notasBaixa2)
 const notasBaixa3 = notas.filter(nota => nota < 7)
 console.log(notasBaixa3)
 
-const notasMenorQue7 = nota => nota < 7 //callback
+//callback - pode ser utilizada em outros locais dessa forma
+const notasMenorQue7 = nota => nota < 7 
 const notasBaixa4 = notas.filter(notasMenorQue7) // chamando o callback
 console.log(notasBaixa4)
