@@ -20,3 +20,7 @@ console.log(notasBaixa2)
 // com callback e arrow
 const notasBaixa3 = notas.filter(nota => nota < 7)
 console.log(notasBaixa3)
+
+const notasMenorQue7 = nota => nota < 7 //callback
+const notasBaixa4 = notas.filter(notasMenorQue7) // chamando o callback
+console.log(notasBaixa4)
