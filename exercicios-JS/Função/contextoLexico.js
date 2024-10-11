@@ -10,3 +10,5 @@ function exec(){
 }
 
 exec()
+
+//aqui foi explicado que quando executado o exec, minhaFuncao() buscou o const no escopo onde foi criado e não o escopo que foi chamada
